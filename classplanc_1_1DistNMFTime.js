@@ -1,0 +1,28 @@
+var classplanc_1_1DistNMFTime =
+[
+    [ "DistNMFTime", "classplanc_1_1DistNMFTime.html#a913465bb6bbe399d5066b7871260f0af", null ],
+    [ "DistNMFTime", "classplanc_1_1DistNMFTime.html#a3f99ceb14480be5f40abcd659c174ea0", null ],
+    [ "DistNMFTime", "classplanc_1_1DistNMFTime.html#a586627de8b2092f754f8488cedbca52b", null ],
+    [ "allgather_duration", "classplanc_1_1DistNMFTime.html#a3cfbb09920b6b956aee463aea50451f0", null ],
+    [ "allgather_duration", "classplanc_1_1DistNMFTime.html#a4b7084e211b0b685688a4eb58891f202", null ],
+    [ "allreduce_duration", "classplanc_1_1DistNMFTime.html#a86cc6ebc484fef2fd18f177ada6c33b4", null ],
+    [ "allreduce_duration", "classplanc_1_1DistNMFTime.html#a30e2f7d37a3b5ac82d910c88e53172ef", null ],
+    [ "communication_duration", "classplanc_1_1DistNMFTime.html#a9ed006b8f79efb03f17158e42091609a", null ],
+    [ "communication_duration", "classplanc_1_1DistNMFTime.html#acb7b406ece542a32a7089418bb4d4b0a", null ],
+    [ "compute_duration", "classplanc_1_1DistNMFTime.html#af98c8eeb69711fff2ebfd14f4761b907", null ],
+    [ "compute_duration", "classplanc_1_1DistNMFTime.html#a402524dd1f0230dd6df7984f786f52cd", null ],
+    [ "duration", "classplanc_1_1DistNMFTime.html#a6e902b7758d03452ac01b7d8dbcba030", null ],
+    [ "duration", "classplanc_1_1DistNMFTime.html#a7296fbccce98d9408298a64f481c3796", null ],
+    [ "err_communication_duration", "classplanc_1_1DistNMFTime.html#a0a8bfd9c13907d3ddbfba8b275b6f1f3", null ],
+    [ "err_communication_duration", "classplanc_1_1DistNMFTime.html#a76cf8d88ada6ba4a49f978c643deae2b", null ],
+    [ "err_compute_duration", "classplanc_1_1DistNMFTime.html#ad4c6ea2052e0fb3fdd53bd71b802931e", null ],
+    [ "err_compute_duration", "classplanc_1_1DistNMFTime.html#aee60c9d3882dbb2e3dda39a4cdc4f7dd", null ],
+    [ "gram_duration", "classplanc_1_1DistNMFTime.html#a6a3ddadeab184c34def7d5eb7df05bf3", null ],
+    [ "gram_duration", "classplanc_1_1DistNMFTime.html#a0c60d4e3af8d0232fac0b37a987ccc9e", null ],
+    [ "mm_duration", "classplanc_1_1DistNMFTime.html#ae977d2f9dc5126d8eb3b9d65051ba816", null ],
+    [ "mm_duration", "classplanc_1_1DistNMFTime.html#ad89dbac461f17f5af031146b68a093c3", null ],
+    [ "nnls_duration", "classplanc_1_1DistNMFTime.html#a7f92d923260678c92b62d0fede5509ee", null ],
+    [ "nnls_duration", "classplanc_1_1DistNMFTime.html#aa70bb3af027a1247587ebf76b53348f0", null ],
+    [ "reducescatter_duration", "classplanc_1_1DistNMFTime.html#a2c510dea8e2340c9be9e9dba5d64bd5b", null ],
+    [ "reducescatter_duration", "classplanc_1_1DistNMFTime.html#a0ca0dc44dc83f43209f4cc093134b59a", null ]
+];
