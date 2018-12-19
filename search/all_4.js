@@ -1,4 +1,9 @@
 var searchData=
 [
-  ['in_5forder_5freuse_5fmttkrp',['in_order_reuse_MTTKRP',['../classDenseDimensionTree.html#a60fbfff326baffbed48aaab575049417',1,'DenseDimensionTree']]]
+  ['epsilon',['EPSILON',['../d5/d60/utils_8h.html#a002b2f4894492820fe708b1b7e7c5e70',1,'utils.h']]],
+  ['epsilon_5f1eminus12',['EPSILON_1EMINUS12',['../d5/d60/utils_8h.html#a1df3f526c3d62995765fd7ed9dbb50b7',1,'utils.h']]],
+  ['epsilon_5f1eminus16',['EPSILON_1EMINUS16',['../d5/d60/utils_8h.html#a1aec4616ba6f4f58ea5c052ca1e4f389',1,'utils.h']]],
+  ['err',['err',['../d9/d5b/classplanc_1_1_tensor.html#aa099e57cc0344d490de3ec62cb486f7b',1,'planc::Tensor::err()'],['../d5/d60/utils_8h.html#a735563036dced0b7d6cc98f97ea4978b',1,'ERR():&#160;utils.h']]],
+  ['err_5fcommunication_5fduration',['err_communication_duration',['../de/de0/classplanc_1_1_dist_n_m_f_time.html#a0a8bfd9c13907d3ddbfba8b275b6f1f3',1,'planc::DistNMFTime::err_communication_duration() const'],['../de/de0/classplanc_1_1_dist_n_m_f_time.html#a76cf8d88ada6ba4a49f978c643deae2b',1,'planc::DistNMFTime::err_communication_duration(double d)'],['../d4/d31/classplanc_1_1_dist_n_t_f_time.html#ae10f032b3c378bc6b6c4b0b49fb54dbb',1,'planc::DistNTFTime::err_communication_duration() const'],['../d4/d31/classplanc_1_1_dist_n_t_f_time.html#a08f39fad9038bd6fb88d338a1cf5d782',1,'planc::DistNTFTime::err_communication_duration(double d)']]],
+  ['err_5fcompute_5fduration',['err_compute_duration',['../de/de0/classplanc_1_1_dist_n_m_f_time.html#ad4c6ea2052e0fb3fdd53bd71b802931e',1,'planc::DistNMFTime::err_compute_duration() const'],['../de/de0/classplanc_1_1_dist_n_m_f_time.html#aee60c9d3882dbb2e3dda39a4cdc4f7dd',1,'planc::DistNMFTime::err_compute_duration(double d)'],['../d4/d31/classplanc_1_1_dist_n_t_f_time.html#a6115b102335dae49c1f025a869194981',1,'planc::DistNTFTime::err_compute_duration() const'],['../d4/d31/classplanc_1_1_dist_n_t_f_time.html#af2655cbef8360728ec6ea4b9e7db4ba7',1,'planc::DistNTFTime::err_compute_duration(double d)']]]
 ];

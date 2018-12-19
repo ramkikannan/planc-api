@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['luc',['LUC',['../classplanc_1_1LUC.html',1,'planc']]]
+  ['mpicommunicator',['MPICommunicator',['../d2/d15/classplanc_1_1_m_p_i_communicator.html',1,'planc']]],
+  ['munmf',['MUNMF',['../d6/dfe/classplanc_1_1_m_u_n_m_f.html',1,'planc']]]
 ];

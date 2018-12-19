@@ -1,15 +1,7 @@
 var searchData=
 [
-  ['ncpfactors',['NCPFactors',['../classplanc_1_1NCPFactors.html',1,'planc']]],
-  ['nmf',['NMF',['../classplanc_1_1NMF.html',1,'planc']]],
-  ['nmf_3c_20inputmattype_20_3e',['NMF&lt; INPUTMATTYPE &gt;',['../classplanc_1_1NMF.html',1,'planc']]],
-  ['nnls',['NNLS',['../classNNLS.html',1,'']]],
-  ['ntfanlsbpp',['NTFANLSBPP',['../classplanc_1_1NTFANLSBPP.html',1,'planc']]],
-  ['ntfaoadmm',['NTFAOADMM',['../classplanc_1_1NTFAOADMM.html',1,'planc']]],
-  ['ntfdriver',['NTFDriver',['../classplanc_1_1NTFDriver.html',1,'planc']]],
-  ['ntfhals',['NTFHALS',['../classplanc_1_1NTFHALS.html',1,'planc']]],
-  ['ntfmpicommunicator',['NTFMPICommunicator',['../classplanc_1_1NTFMPICommunicator.html',1,'planc']]],
-  ['ntfmu',['NTFMU',['../classplanc_1_1NTFMU.html',1,'planc']]],
-  ['ntfnes',['NTFNES',['../classplanc_1_1NTFNES.html',1,'planc']]],
-  ['numpyarray',['NumPyArray',['../classplanc_1_1NumPyArray.html',1,'planc']]]
+  ['h12',['h12',['../db/de8/_active_set_n_n_l_s_8hpp.html#a83bc3990dbb7be25004bd4abc299871b',1,'ActiveSetNNLS.hpp']]],
+  ['hals',['HALS',['../d5/d60/utils_8h.html#abf52f4e0a107916756992adabfed2712a524ec2a64741f6f54e1171d5f0400127',1,'utils.h']]],
+  ['hals_2ehpp',['hals.hpp',['../d6/dfb/hals_8hpp.html',1,'']]],
+  ['halsnmf',['HALSNMF',['../d4/d95/classplanc_1_1_h_a_l_s_n_m_f.html',1,'planc::HALSNMF&lt; T &gt;'],['../d4/d95/classplanc_1_1_h_a_l_s_n_m_f.html#aebc0674edd181454e8f3398e655c96f4',1,'planc::HALSNMF::HALSNMF(const T &amp;A, int lowrank)'],['../d4/d95/classplanc_1_1_h_a_l_s_n_m_f.html#a45b1f0ff958edf24e03bd5c2f3028737',1,'planc::HALSNMF::HALSNMF(const T &amp;A, const MAT &amp;llf, const MAT &amp;rlf)']]]
 ];

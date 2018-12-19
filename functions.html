@@ -9,23 +9,11 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-  $(document).ready(initResizable);
-/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-  $(document).ready(function() { init_search(); });
-/* @license-end */
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -37,22 +25,8 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">planc
    </div>
+   <div id="projectbrief">Parallel Lowrank Approximation with Non-negativity Constraints</div>
   </td>
-   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <img id="MSearchSelect" src="search/mag_sel.png"
-               onmouseover="return searchBox.OnSearchSelectShow()"
-               onmouseout="return searchBox.OnSearchSelectHide()"
-               alt=""/>
-          <input type="text" id="MSearchField" value="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
-          </span>
-        </div>
-</td>
  </tr>
  </tbody>
 </table>
@@ -64,23 +38,17 @@
 var searchBox = new SearchBox("searchBox", "search",false,'Search');
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('functions.html','');});
-/* @license-end */
-</script>
-<div id="doc-content">
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -96,20 +64,54 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </div>
 
 <div class="contents">
-<div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div><ul>
-<li>in_order_reuse_MTTKRP()
-: <a class="el" href="classDenseDimensionTree.html#a60fbfff326baffbed48aaab575049417">DenseDimensionTree</a>
+<div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
+
+<h3><a id="index_a"></a>- a -</h3><ul>
+<li>A()
+: <a class="el" href="dd/da2/classplanc_1_1_dist_i_o.html#ad228e77adc3b8e35661720e3319b675b">planc::DistIO&lt; MATTYPE &gt;</a>
+, <a class="el" href="d2/d53/classplanc_1_1_dist_n_t_f_i_o.html#a946cf236537d4f627ae84d5c3895ff13">planc::DistNTFIO</a>
+</li>
+<li>accelerated()
+: <a class="el" href="db/d95/classplanc_1_1_a_u_n_t_f.html#a3734433ddbc14202ba8d2f7e11c1b4d2">planc::AUNTF</a>
+, <a class="el" href="d5/da3/classplanc_1_1_dist_a_u_n_t_f.html#a4fbe531ee6eb6167f8f2aa235851ecb0">planc::DistAUNTF</a>
+</li>
+<li>Acols()
+: <a class="el" href="dd/da2/classplanc_1_1_dist_i_o.html#ac5222d1202f389d359ff42ffd9c54d72">planc::DistIO&lt; MATTYPE &gt;</a>
+</li>
+<li>ActiveSetNNLS()
+: <a class="el" href="da/df9/class_active_set_n_n_l_s.html#a3df7a54c73b541674e643a7ac2415039">ActiveSetNNLS&lt; T &gt;</a>
+</li>
+<li>algorithm()
+: <a class="el" href="d0/d21/classplanc_1_1_dist_n_m_f1_d.html#aef90f34ed0b0ce538ab4f5fbf10a8589">planc::DistNMF1D&lt; INPUTMATTYPE &gt;</a>
+, <a class="el" href="d0/de5/classplanc_1_1_dist_n_m_f.html#a16767588bfcf074de41fa062e4ad75b3">planc::DistNMF&lt; INPUTMATTYPE &gt;</a>
+</li>
+<li>allgather_duration()
+: <a class="el" href="de/de0/classplanc_1_1_dist_n_m_f_time.html#a3cfbb09920b6b956aee463aea50451f0">planc::DistNMFTime</a>
+, <a class="el" href="d4/d31/classplanc_1_1_dist_n_t_f_time.html#a46afca90f66d7b9e5b4b9f2728aae40a">planc::DistNTFTime</a>
+</li>
+<li>allreduce_duration()
+: <a class="el" href="de/de0/classplanc_1_1_dist_n_m_f_time.html#a86cc6ebc484fef2fd18f177ada6c33b4">planc::DistNMFTime</a>
+, <a class="el" href="d4/d31/classplanc_1_1_dist_n_t_f_time.html#a57cc21d42bee2896e50027fee21d0643">planc::DistNTFTime</a>
+</li>
+<li>AOADMMNMF()
+: <a class="el" href="d2/d28/classplanc_1_1_a_o_a_d_m_m_n_m_f.html#af86cc1490e0f0169b39f0ea7a11e0eec">planc::AOADMMNMF&lt; T &gt;</a>
+</li>
+<li>Arows()
+: <a class="el" href="dd/da2/classplanc_1_1_dist_i_o.html#ae695de4f4bb482c7df4d2ca480fa90d3">planc::DistIO&lt; MATTYPE &gt;</a>
+</li>
+<li>at()
+: <a class="el" href="d9/d5b/classplanc_1_1_tensor.html#a2da4e7c0e3daf8883a3548086a9e730a">planc::Tensor</a>
+</li>
+<li>AUNTF()
+: <a class="el" href="db/d95/classplanc_1_1_a_u_n_t_f.html#ad5604164692b4cdf639fbe12597165c9">planc::AUNTF</a>
 </li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated on Tue Dec 18 2018 22:28:35 for planc by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
 </body>
 </html>

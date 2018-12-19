@@ -1,0 +1,29 @@
+\form#0:$Y_0$
+\form#1:$Y_{N-1}$
+\form#2:$Y_n$
+\form#3:$\prod\limits_{k=n+1}^{N-1}I_k$
+\form#4:$I_n \times \prod\limits_{k=0}^{n-1}I_k$
+\form#5:$\frac{globalm}{p_r} \times \frac{globaln}{p_c}$
+\form#6:$m=\frac{globalm}{p_r} and n=\frac{globaln}{p_c}$
+\form#7:$\frac{globaln}{p} \times k$
+\form#8:${globalm}{p} \times k$
+\form#9:$m \times n$
+\form#10:$n \times k$
+\form#11:$m=\frac{globalm}{p_r}$
+\form#12:$n=\frac{globaln}{p_c}$
+\form#13:$\frac{globalm}{p} \times k $
+\form#14:$\frac{globaln}{p} \times k $
+\form#15:$\|A\|_F^2 - 2trace(H(A^TW))+trace((W^TW)*(HH^T))$
+\form#16:$k \times \frac{globaln}{p}$
+\form#17:${globaln}{p} \times k $
+\form#18:$ k \times \frac{globalm}/{p} $
+\form#19:$ \frac{globalm}{p} \times k $
+\form#20:$k \times \frac{globaln}{p} $
+\form#21:$ \frac{globaln}{p} \times k$
+\form#22:$ k \times \frac{globalm}/{p}$
+\form#23:$ \frac{globaln}{p} \times k $
+\form#24:$\frac{globalm}{p} \times k$
+\form#25:$W(:,i)=[W(:,i) + (AH(:,i)-WH^TH(:,i))/H^TH(i,i)]_+$
+\form#26:$ H(:,i) = H(:,i) + WtAij(:,i) - HW^TW(:,i)$
+\form#27:$w_{ij} = w_{ij} .* \frac{(AH)_{ij}}{(WH^TH)_{ij}}$
+\form#28:$h_{ij} = \frac{h_{ij} .* WtAij.t()}{(HW^TW)_{ij}}$
