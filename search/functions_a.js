@@ -2,7 +2,6 @@ var searchData=
 [
   ['lambda',['lambda',['../d0/d20/classplanc_1_1_n_c_p_factors.html#a9359f1890a4ffa2e7caeecf9667cffe1',1,'planc::NCPFactors::lambda()'],['../d5/da3/classplanc_1_1_dist_a_u_n_t_f.html#a7088f10e6f50e34897e1cbab37d85d0a',1,'planc::DistAUNTF::lambda()']]],
   ['load',['load',['../d1/d87/classplanc_1_1_num_py_array.html#a19bbc2c33fb44ffba86fd47a35ad8fb9',1,'planc::NumPyArray']]],
-  ['load_5fsparse_5fmatrix',['load_sparse_matrix',['../dd/d47/namespaceshufflesparsemm.html#aede9b82a0108babe879e758398c5209b',1,'shufflesparsemm']]],
   ['lower_5fbound',['lower_bound',['../d9/d5b/classplanc_1_1_tensor.html#a79d117ddddead9ecc9675adba8a53633',1,'planc::Tensor']]],
   ['lowrankk',['lowrankk',['../d2/dad/classplanc_1_1_parse_command_line.html#aabdb47d190333b41b10a02686a7ede40',1,'planc::ParseCommandLine']]],
   ['lr_5fktensor_5freordering_5fexistingy',['LR_Ktensor_Reordering_existingY',['../d2/d25/ddttensor_8hpp.html#a66c5e10ba43dcfde87d5bb5edfb4ae5a',1,'ddttensor.hpp']]],

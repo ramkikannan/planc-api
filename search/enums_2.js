@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['iodistributions',['iodistributions',['../de/d18/distutils_8h.html#a52fbe8aa7007cadec4848ad8dd18036c',1,'distutils.h']]]
+  ['normtype',['normtype',['../d5/d60/utils_8h.html#aa1091164926a619be994aec2669ac5f5',1,'utils.h']]]
 ];

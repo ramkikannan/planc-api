@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['save_5fsparse_5fmatrix',['save_sparse_matrix',['../dd/d47/namespaceshufflesparsemm.html#ac8465fe96333289aef56e9436adff392',1,'shufflesparsemm']]],
   ['scale',['scale',['../d9/d5b/classplanc_1_1_tensor.html#a7984d6c1eaf730d0e1248417d4740daa',1,'planc::Tensor']]],
   ['set',['set',['../d0/d20/classplanc_1_1_n_c_p_factors.html#ad817faad2c76a335bc9904187f08394a',1,'planc::NCPFactors']]],
   ['set_5ffactor',['set_factor',['../da/d51/class_dense_dimension_tree.html#aa8a9d63ae220a52ae0744995b2e3f463',1,'DenseDimensionTree']]],
@@ -19,10 +18,6 @@ var searchData=
   ['sortbooleanmatrix',['SortBooleanMatrix',['../d7/dbb/class_sort_boolean_matrix.html#ae74f678936648c58c0bb5505b0b5a8c1',1,'SortBooleanMatrix']]],
   ['sortindex',['sortIndex',['../d7/dbb/class_sort_boolean_matrix.html#aeaf4a650f63da5eb8b5155ab4a11274d',1,'SortBooleanMatrix']]],
   ['sparsity',['sparsity',['../d2/dad/classplanc_1_1_parse_command_line.html#a02ac3b9fbf0aad1cd87ba3e78e9e03a9',1,'planc::ParseCommandLine']]],
-  ['splitandwrite',['splitandWrite',['../d5/d03/_split_files_8cpp.html#aeee2c4c4a278216b3dd3566f8e0f9469',1,'SplitFiles.cpp']]],
-  ['splitfile',['splitFile',['../d5/d03/_split_files_8cpp.html#adfef1f521a480a81b7cf6f5bd2be3ab7',1,'SplitFiles.cpp']]],
-  ['spmatiteratortest',['spMatIteratorTest',['../d5/d03/_split_files_8cpp.html#a00db7a97ee8467e577346177ef8415a2',1,'SplitFiles.cpp']]],
   ['startidx',['startidx',['../d9/de5/distutils_8hpp.html#ab1187414c9a66ca31f476729c8fe4019',1,'distutils.hpp']]],
-  ['sub2ind',['sub2ind',['../d9/d5b/classplanc_1_1_tensor.html#a40ca90765ae7f544fe8a6397096d7eab',1,'planc::Tensor::sub2ind()'],['../d5/d03/_split_files_8cpp.html#aed5d479b0d0295115b6b33665de47390',1,'sub2ind():&#160;SplitFiles.cpp']]],
-  ['sumtwocolumn',['sumtwocolumn',['../d9/dd4/namespacescaletopgf.html#a623163119a5d082107d3629fbea62e62',1,'scaletopgf']]]
+  ['sub2ind',['sub2ind',['../d9/d5b/classplanc_1_1_tensor.html#a40ca90765ae7f544fe8a6397096d7eab',1,'planc::Tensor']]]
 ];

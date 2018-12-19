@@ -16,7 +16,6 @@ var searchData=
   ['aoadmm_2ehpp',['aoadmm.hpp',['../df/d1f/aoadmm_8hpp.html',1,'']]],
   ['aoadmmnmf',['AOADMMNMF',['../d2/d28/classplanc_1_1_a_o_a_d_m_m_n_m_f.html',1,'planc::AOADMMNMF&lt; T &gt;'],['../d2/d28/classplanc_1_1_a_o_a_d_m_m_n_m_f.html#a46cc821fcf6a3cfd88f39e05477f1127',1,'planc::AOADMMNMF::AOADMMNMF(const T &amp;A, int lowrank)'],['../d2/d28/classplanc_1_1_a_o_a_d_m_m_n_m_f.html#af86cc1490e0f0169b39f0ea7a11e0eec',1,'planc::AOADMMNMF::AOADMMNMF(const T &amp;A, const MAT &amp;llf, const MAT &amp;rlf)']]],
   ['approximation_5ferror',['approximation_Error',['../d2/d25/ddttensor_8hpp.html#a992dd04fe23e915bf4ee186b0652b8de',1,'ddttensor.hpp']]],
-  ['arma_5f64bit_5fword',['ARMA_64BIT_WORD',['../d5/d03/_split_files_8cpp.html#a1351ec875d8c01d70dc7a68e08e42c86',1,'SplitFiles.cpp']]],
   ['arma_5fdont_5fuse_5fwrapper',['ARMA_DONT_USE_WRAPPER',['../d5/d60/utils_8h.html#ac6d7b909c4ad504c89a8f5013b52e7e1',1,'utils.h']]],
   ['arma_5fuse_5fblas',['ARMA_USE_BLAS',['../d5/d60/utils_8h.html#a0570f42ba212b500fe9c27afc5bf8de6',1,'utils.h']]],
   ['arma_5fuse_5flapack',['ARMA_USE_LAPACK',['../d5/d60/utils_8h.html#a764f9a9f83755beab38edca9fcdc7c46',1,'utils.h']]],

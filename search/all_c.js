@@ -2,7 +2,6 @@ var searchData=
 [
   ['naiveanlsbpp',['NAIVEANLSBPP',['../d5/d60/utils_8h.html#abf52f4e0a107916756992adabfed2712a6f86d01e9f89f8018295177d41598a65',1,'utils.h']]],
   ['naiveanlsbpp_2ehpp',['naiveanlsbpp.hpp',['../de/de1/naiveanlsbpp_8hpp.html',1,'']]],
-  ['ncols',['ncols',['../d9/dc5/namespaceconv-mat-to-ss.html#aa6ff5203972517d386d9848ec5cba581',1,'conv-mat-to-ss']]],
   ['ncp_5ffactors',['ncp_factors',['../db/d95/classplanc_1_1_a_u_n_t_f.html#a2261fe3a1dae040d4a1d4c3c6232e9e3',1,'planc::AUNTF']]],
   ['ncpfactors',['NCPFactors',['../d0/d20/classplanc_1_1_n_c_p_factors.html',1,'planc::NCPFactors'],['../d0/d20/classplanc_1_1_n_c_p_factors.html#a664559afc1cab514263ac1f7f82b4700',1,'planc::NCPFactors::NCPFactors()']]],
   ['ncpfactors_2ehpp',['ncpfactors.hpp',['../d0/d12/ncpfactors_8hpp.html',1,'']]],
@@ -27,11 +26,7 @@ var searchData=
   ['normalize_5frows',['normalize_rows',['../d0/d20/classplanc_1_1_n_c_p_factors.html#ad02511b415a7c5091b3c687c9cf2177b',1,'planc::NCPFactors']]],
   ['normtype',['normtype',['../d5/d60/utils_8h.html#aa1091164926a619be994aec2669ac5f5',1,'utils.h']]],
   ['npyio_2ehpp',['npyio.hpp',['../da/db0/npyio_8hpp.html',1,'']]],
-  ['nrows',['nrows',['../d9/dc5/namespaceconv-mat-to-ss.html#ab6f61d9f798dbc6f104465eeb719cfd3',1,'conv-mat-to-ss']]],
   ['ntf_2ecpp',['ntf.cpp',['../d8/d9e/ntf_8cpp.html',1,'']]],
-  ['ntf_5fbpp',['NTF_BPP',['../da/d9d/namespaceplanc.html#ad980333f56eb9c1e5d6f4b12a79e74d6a8bf75d1a5763a598ec6fe6e7dc5fae3f',1,'planc']]],
-  ['ntf_5fhals',['NTF_HALS',['../da/d9d/namespaceplanc.html#ad980333f56eb9c1e5d6f4b12a79e74d6add5f46dd2c81b32b82ce2c0cc4745d13',1,'planc']]],
-  ['ntf_5fmu',['NTF_MU',['../da/d9d/namespaceplanc.html#ad980333f56eb9c1e5d6f4b12a79e74d6aebbfa2fc697b5f0ad63eb3101cea938e',1,'planc']]],
   ['ntf_5futils_2ehpp',['ntf_utils.hpp',['../d5/d2c/ntf__utils_8hpp.html',1,'']]],
   ['ntfanlsbpp',['NTFANLSBPP',['../d8/d01/classplanc_1_1_n_t_f_a_n_l_s_b_p_p.html',1,'planc::NTFANLSBPP'],['../d8/d01/classplanc_1_1_n_t_f_a_n_l_s_b_p_p.html#a793ebf775f9d899bbf32160d501aed1f',1,'planc::NTFANLSBPP::NTFANLSBPP()']]],
   ['ntfanlsbpp_2ehpp',['ntfanlsbpp.hpp',['../d3/d17/ntfanlsbpp_8hpp.html',1,'']]],
@@ -46,7 +41,7 @@ var searchData=
   ['ntfnes',['NTFNES',['../dd/d9b/classplanc_1_1_n_t_f_n_e_s.html',1,'planc::NTFNES'],['../dd/d9b/classplanc_1_1_n_t_f_n_e_s.html#a96ef4ac5db4ecbc7beea8d01fb6a9d3f',1,'planc::NTFNES::NTFNES()']]],
   ['ntfnes_2ehpp',['ntfnes.hpp',['../d2/d59/ntfnes_8hpp.html',1,'']]],
   ['num_5fit',['num_it',['../db/d95/classplanc_1_1_a_u_n_t_f.html#af93c10a877002e37403b5ac60b7b96e1',1,'planc::AUNTF']]],
-  ['num_5fiterations',['num_iterations',['../dc/d5a/classplanc_1_1_n_m_f.html#a6f5002060004dc812fa988c7125e8a8e',1,'planc::NMF::num_iterations()'],['../d0/d21/classplanc_1_1_dist_n_m_f1_d.html#a8e5f53b0298985f914209a81226d965c',1,'planc::DistNMF1D::num_iterations() const'],['../d0/d21/classplanc_1_1_dist_n_m_f1_d.html#afdddae180513aed9ac8e2f2482e90e10',1,'planc::DistNMF1D::num_iterations(int it)'],['../d5/da3/classplanc_1_1_dist_a_u_n_t_f.html#ae3ffb151ee3735ae23092e456ac0a15a',1,'planc::DistAUNTF::num_iterations()']]],
+  ['num_5fiterations',['num_iterations',['../dc/d5a/classplanc_1_1_n_m_f.html#a6f5002060004dc812fa988c7125e8a8e',1,'planc::NMF::num_iterations(const int it)'],['../dc/d5a/classplanc_1_1_n_m_f.html#ad79937081406fc42d8cf56379eec5ecb',1,'planc::NMF::num_iterations() const'],['../d0/d21/classplanc_1_1_dist_n_m_f1_d.html#a8e5f53b0298985f914209a81226d965c',1,'planc::DistNMF1D::num_iterations() const'],['../d0/d21/classplanc_1_1_dist_n_m_f1_d.html#afdddae180513aed9ac8e2f2482e90e10',1,'planc::DistNMF1D::num_iterations(int it)'],['../d5/da3/classplanc_1_1_dist_a_u_n_t_f.html#ae3ffb151ee3735ae23092e456ac0a15a',1,'planc::DistAUNTF::num_iterations()']]],
   ['num_5fk_5fblocks',['num_k_blocks',['../d2/dad/classplanc_1_1_parse_command_line.html#a4a7b5c70f330e8fb79eeb83d4b73af6c',1,'planc::ParseCommandLine']]],
   ['num_5fmodes',['num_modes',['../d2/dad/classplanc_1_1_parse_command_line.html#aebf9c2e32f32f1eb53976ca9ce1474d5',1,'planc::ParseCommandLine']]],
   ['num_5fslices',['num_slices',['../d6/dc1/classplanc_1_1_n_t_f_m_p_i_communicator.html#ac62830705dedd84ce183cbdddbd9e6dd',1,'planc::NTFMPICommunicator']]],
@@ -57,6 +52,5 @@ var searchData=
   ['numel',['numel',['../d9/d5b/classplanc_1_1_tensor.html#ad323c80468f677049a6379b85d018298',1,'planc::Tensor']]],
   ['numkblocks',['NUMKBLOCKS',['../db/d8b/parsecommandline_8h.html#ac7ffcef1f15ae436c07523f7c0f70644',1,'parsecommandline.h']]],
   ['numpyarray',['NumPyArray',['../d1/d87/classplanc_1_1_num_py_array.html',1,'planc::NumPyArray'],['../d1/d87/classplanc_1_1_num_py_array.html#a38dc19b7cc25975db9e8fd4254f70a8d',1,'planc::NumPyArray::NumPyArray()']]],
-  ['numrowprocs',['NUMROWPROCS',['../de/d18/distutils_8h.html#a22061019c0cf8f3d29c4b6ac5688b7cf',1,'distutils.h']]],
-  ['nz',['nz',['../d9/dc5/namespaceconv-mat-to-ss.html#a3bf76cac4bf55a96fe0176f5715ea2c4',1,'conv-mat-to-ss']]]
+  ['numrowprocs',['NUMROWPROCS',['../de/d18/distutils_8h.html#a22061019c0cf8f3d29c4b6ac5688b7cf',1,'distutils.h']]]
 ];

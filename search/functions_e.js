@@ -19,7 +19,7 @@ var searchData=
   ['print_5ftensor',['print_tensor',['../d2/d25/ddttensor_8hpp.html#a93eb0318d3f4438c11526a99425615b1',1,'ddttensor.hpp']]],
   ['print_5fusage',['print_usage',['../d2/dad/classplanc_1_1_parse_command_line.html#aaa260719d14b9130b564336210753d46',1,'planc::ParseCommandLine']]],
   ['printconfig',['printConfig',['../d2/dad/classplanc_1_1_parse_command_line.html#a7fd5f4e9e7f4e14af87245e5e9613280',1,'planc::ParseCommandLine::printConfig()'],['../d6/dc1/classplanc_1_1_n_t_f_m_p_i_communicator.html#a4060ea545dae862d748a7ed487088759',1,'planc::NTFMPICommunicator::printConfig()']]],
-  ['printinfo',['printinfo',['../d0/d20/classplanc_1_1_n_c_p_factors.html#a386eb356279a7a764f2b73a83ca8b5bd',1,'planc::NCPFactors::printinfo()'],['../d1/d87/classplanc_1_1_num_py_array.html#ab276b05243d83c3decab8a77be15c28c',1,'planc::NumPyArray::printInfo()']]],
+  ['printinfo',['printInfo',['../d1/d87/classplanc_1_1_num_py_array.html#ab276b05243d83c3decab8a77be15c28c',1,'planc::NumPyArray::printInfo()'],['../d0/d20/classplanc_1_1_n_c_p_factors.html#a386eb356279a7a764f2b73a83ca8b5bd',1,'planc::NCPFactors::printinfo()']]],
   ['printm_5fcolmajor',['printM_ColMajor',['../d2/d25/ddttensor_8hpp.html#ac1fe722b6a7fd404f686de6cb4d17e58',1,'ddttensor.hpp']]],
   ['printm_5frowmajor',['printM_RowMajor',['../d2/d25/ddttensor_8hpp.html#a65eafe20d4c785aeabc5fb1e32a33cce',1,'ddttensor.hpp']]],
   ['printvector',['printVector',['../df/d93/utils_8hpp.html#a3167f8eed12ac682c9fc1798b744e87a',1,'utils.hpp']]],

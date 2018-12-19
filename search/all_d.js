@@ -8,7 +8,6 @@ var searchData=
   ['operator_28_29',['operator()',['../dc/d5a/class_boolean_array_comparator.html#a8ecfdc2df903d14546194e9f96bdcad3',1,'BooleanArrayComparator']]],
   ['operator_3d',['operator=',['../d9/d5b/classplanc_1_1_tensor.html#a51960eaad239d49319a1df8820e82c69',1,'planc::Tensor']]],
   ['opposite_5fdirection',['opposite_direction',['../d2/d25/ddttensor_8hpp.html#a3b968eb943863ea9eeb19c34487a0456',1,'ddttensor.hpp']]],
-  ['outmatname',['outmatname',['../d9/dc5/namespaceconv-mat-to-ss.html#a08c57b5e8a38b0ee86cd9f3e340a53fa',1,'conv-mat-to-ss']]],
   ['output',['OUTPUT',['../d5/d60/utils_8h.html#a61a3c9a18380aafb6e430e79bf596557',1,'utils.h']]],
   ['output_5ffile_5fname',['output_file_name',['../d2/dad/classplanc_1_1_parse_command_line.html#ac64d9c6df657c6dba1184db9eeb1d9b4',1,'planc::ParseCommandLine']]],
   ['output_5flayout',['Output_Layout',['../d5/d66/dimtrees_8h.html#aee1de49a8b9a7270385f2e6ab6c952fa',1,'dimtrees.h']]]

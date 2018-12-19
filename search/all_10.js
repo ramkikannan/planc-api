@@ -1,18 +1,13 @@
 var searchData=
 [
   ['sampletest_2ecpp',['sampletest.cpp',['../d8/dce/sampletest_8cpp.html',1,'']]],
-  ['save_5fsparse_5fmatrix',['save_sparse_matrix',['../dd/d47/namespaceshufflesparsemm.html#ac8465fe96333289aef56e9436adff392',1,'shufflesparsemm']]],
   ['scale',['scale',['../d9/d5b/classplanc_1_1_tensor.html#a7984d6c1eaf730d0e1248417d4740daa',1,'planc::Tensor']]],
-  ['scaletopgf',['scaletopgf',['../d9/dd4/namespacescaletopgf.html',1,'']]],
-  ['scaletopgf_2epy',['scaletopgf.py',['../d8/dad/scaletopgf_8py.html',1,'']]],
   ['set',['set',['../d0/d20/classplanc_1_1_n_c_p_factors.html#ad817faad2c76a335bc9904187f08394a',1,'planc::NCPFactors']]],
   ['set_5ffactor',['set_factor',['../da/d51/class_dense_dimension_tree.html#aa8a9d63ae220a52ae0744995b2e3f463',1,'DenseDimensionTree']]],
   ['set_5fidx',['set_idx',['../d9/d5b/classplanc_1_1_tensor.html#aa9a76cae79cf3c16b684811d593efc57',1,'planc::Tensor']]],
   ['set_5flambda',['set_lambda',['../d0/d20/classplanc_1_1_n_c_p_factors.html#a78134126a1dfc0f8f9f39d96f4fd100d',1,'planc::NCPFactors']]],
   ['set_5fleft_5fright_5fproduct',['set_left_right_product',['../da/d51/class_dense_dimension_tree.html#aa36f48d495a541b1cf07af735fc54ef6',1,'DenseDimensionTree']]],
   ['shift',['shift',['../d9/d5b/classplanc_1_1_tensor.html#ae27eb988ed24914569add82f5d2b38c1',1,'planc::Tensor']]],
-  ['shufflesparsemm',['shufflesparsemm',['../dd/d47/namespaceshufflesparsemm.html',1,'']]],
-  ['shufflesparsemm_2epy',['shufflesparsemm.py',['../d2/d85/shufflesparsemm_8py.html',1,'']]],
   ['size',['size',['../d2/d15/classplanc_1_1_m_p_i_communicator.html#aa9242d5e1e7e44c82960ca42fb220e4b',1,'planc::MPICommunicator::size()'],['../d6/dc1/classplanc_1_1_n_t_f_m_p_i_communicator.html#a43ceef3842ce6fcc2e70aa62bd714b36',1,'planc::NTFMPICommunicator::size() const'],['../d6/dc1/classplanc_1_1_n_t_f_m_p_i_communicator.html#ae4112952f4f843a5b1374937707b44da',1,'planc::NTFMPICommunicator::size(const int i_d) const']]],
   ['slice',['slice',['../d6/dc1/classplanc_1_1_n_t_f_m_p_i_communicator.html#a823163aefe0200c91ef6c36e08276f47',1,'planc::NTFMPICommunicator']]],
   ['slice_5fnum',['slice_num',['../d6/dc1/classplanc_1_1_n_t_f_m_p_i_communicator.html#a539e10245f10fb8739290ca8c2abb7b2',1,'planc::NTFMPICommunicator']]],
@@ -27,12 +22,7 @@ var searchData=
   ['sp_5ffmat',['SP_FMAT',['../d5/d60/utils_8h.html#ac94042e836fe51e1cd713e6d04c4af5f',1,'utils.h']]],
   ['sp_5fmat',['SP_MAT',['../d5/d60/utils_8h.html#a1c546ba4b00d16ebb0b460a978b6141b',1,'utils.h']]],
   ['sparsity',['sparsity',['../d2/dad/classplanc_1_1_parse_command_line.html#a02ac3b9fbf0aad1cd87ba3e78e9e03a9',1,'planc::ParseCommandLine']]],
-  ['splitandwrite',['splitandWrite',['../d5/d03/_split_files_8cpp.html#aeee2c4c4a278216b3dd3566f8e0f9469',1,'SplitFiles.cpp']]],
-  ['splitfile',['splitFile',['../d5/d03/_split_files_8cpp.html#adfef1f521a480a81b7cf6f5bd2be3ab7',1,'SplitFiles.cpp']]],
-  ['splitfiles_2ecpp',['SplitFiles.cpp',['../d5/d03/_split_files_8cpp.html',1,'']]],
-  ['spmatiteratortest',['spMatIteratorTest',['../d5/d03/_split_files_8cpp.html#a00db7a97ee8467e577346177ef8415a2',1,'SplitFiles.cpp']]],
   ['startidx',['startidx',['../d9/de5/distutils_8hpp.html#ab1187414c9a66ca31f476729c8fe4019',1,'distutils.hpp']]],
   ['stdvec',['STDVEC',['../d5/d60/utils_8h.html#acbc4f4068b28f28a8b74fbf383082c9e',1,'utils.h']]],
-  ['sub2ind',['sub2ind',['../d9/d5b/classplanc_1_1_tensor.html#a40ca90765ae7f544fe8a6397096d7eab',1,'planc::Tensor::sub2ind()'],['../d5/d03/_split_files_8cpp.html#aed5d479b0d0295115b6b33665de47390',1,'sub2ind():&#160;SplitFiles.cpp']]],
-  ['sumtwocolumn',['sumtwocolumn',['../d9/dd4/namespacescaletopgf.html#a623163119a5d082107d3629fbea62e62',1,'scaletopgf']]]
+  ['sub2ind',['sub2ind',['../d9/d5b/classplanc_1_1_tensor.html#a40ca90765ae7f544fe8a6397096d7eab',1,'planc::Tensor']]]
 ];

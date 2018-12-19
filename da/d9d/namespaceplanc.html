@@ -65,8 +65,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
 <div class="title">planc Namespace Reference</div>  </div>
 </div><!--header-->
@@ -158,14 +157,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5b/classplanc_1_1_tensor.html">Tensor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data is stored such that the unfolding <img class="formulaInl" alt="$Y_0$" src="../../form_0.png"/> is column major.  <a href="../../d9/d5b/classplanc_1_1_tensor.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ad980333f56eb9c1e5d6f4b12a79e74d6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d9d/namespaceplanc.html#ad980333f56eb9c1e5d6f4b12a79e74d6">distntfalgotype</a> { <a class="el" href="../../da/d9d/namespaceplanc.html#ad980333f56eb9c1e5d6f4b12a79e74d6aebbfa2fc697b5f0ad63eb3101cea938e">NTF_MU</a>, 
-<a class="el" href="../../da/d9d/namespaceplanc.html#ad980333f56eb9c1e5d6f4b12a79e74d6add5f46dd2c81b32b82ce2c0cc4745d13">NTF_HALS</a>, 
-<a class="el" href="../../da/d9d/namespaceplanc.html#ad980333f56eb9c1e5d6f4b12a79e74d6a8bf75d1a5763a598ec6fe6e7dc5fae3f">NTF_BPP</a>
- }</td></tr>
-<tr class="separator:ad980333f56eb9c1e5d6f4b12a79e74d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>ncp_factors contains the factors of the ncp every ith factor is of size n_i * k number of factors is called as mode of the tensor all idxs are zero idx. </p>
@@ -181,32 +172,10 @@ Enumerations</h2></td></tr>
 <p>Should match the SVD objective error.</p>
 <p>Offers implementation for the pure virtual function updateW and updateH based on MU.</p>
 <p>x Mn is distributed among P1 x P2 x ... x Pn grid of P processors. That means, every processor has (M1/P1) x (M2/P2) x ... x (Mn/Pn) tensor as m_input_tensor. Similarly every process own a portion of the factors as H(i,pi) of size (Mi/Pi) x k and collects from its neighbours as H(i,p) as (Mi/P) x k H(i,p) and m_input_tensor can perform local MTTKRP. The local MTTKRP's are reduced scattered for local <a class="el" href="../../d6/d16/class_n_n_l_s.html">NNLS</a>. </p>
-</div><h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ad980333f56eb9c1e5d6f4b12a79e74d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad980333f56eb9c1e5d6f4b12a79e74d6">&#9670;&nbsp;</a></span>distntfalgotype</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../da/d9d/namespaceplanc.html#ad980333f56eb9c1e5d6f4b12a79e74d6">planc::distntfalgotype</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad980333f56eb9c1e5d6f4b12a79e74d6aebbfa2fc697b5f0ad63eb3101cea938e"></a>NTF_MU&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad980333f56eb9c1e5d6f4b12a79e74d6add5f46dd2c81b32b82ce2c0cc4745d13"></a>NTF_HALS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad980333f56eb9c1e5d6f4b12a79e74d6a8bf75d1a5763a598ec6fe6e7dc5fae3f"></a>NTF_BPP&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d25/distntfutils_8h_source.html#l00009">9</a> of file <a class="el" href="../../d4/d25/distntfutils_8h_source.html">distntfutils.h</a>.</p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Dec 18 2018 22:28:25 for planc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 19 2018 14:17:13 for planc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

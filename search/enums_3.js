@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['normtype',['normtype',['../d5/d60/utils_8h.html#aa1091164926a619be994aec2669ac5f5',1,'utils.h']]]
+  ['output_5flayout',['Output_Layout',['../d5/d66/dimtrees_8h.html#aee1de49a8b9a7270385f2e6ab6c952fa',1,'dimtrees.h']]]
 ];
