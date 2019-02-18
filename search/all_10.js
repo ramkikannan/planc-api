@@ -24,5 +24,6 @@ var searchData=
   ['sparsity',['sparsity',['../d2/dad/classplanc_1_1_parse_command_line.html#a02ac3b9fbf0aad1cd87ba3e78e9e03a9',1,'planc::ParseCommandLine']]],
   ['startidx',['startidx',['../d9/de5/distutils_8hpp.html#ab1187414c9a66ca31f476729c8fe4019',1,'distutils.hpp']]],
   ['stdvec',['STDVEC',['../d5/d60/utils_8h.html#acbc4f4068b28f28a8b74fbf383082c9e',1,'utils.h']]],
-  ['sub2ind',['sub2ind',['../d9/d5b/classplanc_1_1_tensor.html#a40ca90765ae7f544fe8a6397096d7eab',1,'planc::Tensor']]]
+  ['sub2ind',['sub2ind',['../d9/d5b/classplanc_1_1_tensor.html#a40ca90765ae7f544fe8a6397096d7eab',1,'planc::Tensor']]],
+  ['swap',['swap',['../d9/d5b/classplanc_1_1_tensor.html#a84344f961ca392c4ec8e97fabada0c10',1,'planc::Tensor::swap()'],['../d3/d8b/tensor_8hpp.html#a45431e453ec6095c53135203de046083',1,'swap():&#160;tensor.hpp']]]
 ];

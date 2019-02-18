@@ -52,7 +52,7 @@ var searchData=
   ['distntfcpals_2ehpp',['distntfcpals.hpp',['../d7/dce/distntfcpals_8hpp.html',1,'']]],
   ['distntfhals',['DistNTFHALS',['../d5/de0/classplanc_1_1_dist_n_t_f_h_a_l_s.html',1,'planc::DistNTFHALS'],['../d5/de0/classplanc_1_1_dist_n_t_f_h_a_l_s.html#a35d2210f0e1876b9abb384d61ebdfee5',1,'planc::DistNTFHALS::DistNTFHALS()']]],
   ['distntfhals_2ehpp',['distntfhals.hpp',['../d8/db8/distntfhals_8hpp.html',1,'']]],
-  ['distntfio',['DistNTFIO',['../d2/d53/classplanc_1_1_dist_n_t_f_i_o.html',1,'planc::DistNTFIO'],['../d2/d53/classplanc_1_1_dist_n_t_f_i_o.html#a8faee959bd00384abc1f27ca8a41fce8',1,'planc::DistNTFIO::DistNTFIO()']]],
+  ['distntfio',['DistNTFIO',['../d2/d53/classplanc_1_1_dist_n_t_f_i_o.html',1,'planc::DistNTFIO'],['../d2/d53/classplanc_1_1_dist_n_t_f_i_o.html#adfff9c92cffd83e5faf9e4f97dfc9321',1,'planc::DistNTFIO::DistNTFIO()']]],
   ['distntfio_2ehpp',['distntfio.hpp',['../db/d37/distntfio_8hpp.html',1,'']]],
   ['distntfmpicomm_2ehpp',['distntfmpicomm.hpp',['../d6/d9d/distntfmpicomm_8hpp.html',1,'']]],
   ['distntfmu',['DistNTFMU',['../d7/d9b/classplanc_1_1_dist_n_t_f_m_u.html',1,'planc::DistNTFMU'],['../d7/d9b/classplanc_1_1_dist_n_t_f_m_u.html#a6f25459da3f35228972ba50f2e4e4812',1,'planc::DistNTFMU::DistNTFMU()']]],

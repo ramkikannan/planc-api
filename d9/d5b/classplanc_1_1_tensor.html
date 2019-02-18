@@ -101,6 +101,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8a93557389aa13af90303cc08afa714f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51960eaad239d49319a1df8820e82c69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5b/classplanc_1_1_tensor.html">Tensor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5b/classplanc_1_1_tensor.html#a51960eaad239d49319a1df8820e82c69">operator=</a> (const <a class="el" href="../../d9/d5b/classplanc_1_1_tensor.html">Tensor</a> &amp;other)</td></tr>
 <tr class="separator:a51960eaad239d49319a1df8820e82c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84344f961ca392c4ec8e97fabada0c10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5b/classplanc_1_1_tensor.html#a84344f961ca392c4ec8e97fabada0c10">swap</a> (<a class="el" href="../../d9/d5b/classplanc_1_1_tensor.html">Tensor</a> &amp;in)</td></tr>
+<tr class="separator:a84344f961ca392c4ec8e97fabada0c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bdcc1ae79a1d796f382dacc9b1e9ed3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5b/classplanc_1_1_tensor.html#a2bdcc1ae79a1d796f382dacc9b1e9ed3">clear</a> ()</td></tr>
 <tr class="memdesc:a2bdcc1ae79a1d796f382dacc9b1e9ed3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the data and also destroys the storage.  <a href="#a2bdcc1ae79a1d796f382dacc9b1e9ed3">More...</a><br /></td></tr>
 <tr class="separator:a2bdcc1ae79a1d796f382dacc9b1e9ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -179,14 +181,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aa0444b14c9d57936f69e6426ffd9d2a7"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5b/classplanc_1_1_tensor.html#aa0444b14c9d57936f69e6426ffd9d2a7">m_data</a></td></tr>
-<tr class="separator:aa0444b14c9d57936f69e6426ffd9d2a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0acabfabe7924b4f67d77b3f3ffc6e37"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5b/classplanc_1_1_tensor.html#a0acabfabe7924b4f67d77b3f3ffc6e37">m_data</a></td></tr>
+<tr class="separator:a0acabfabe7924b4f67d77b3f3ffc6e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Data is stored such that the unfolding <img class="formulaInl" alt="$Y_0$" src="../../form_0.png"/> is column major. </p>
 <p>This means the flattening <img class="formulaInl" alt="$Y_{N-1}$" src="../../form_1.png"/> is row-major, and any other flattening <img class="formulaInl" alt="$Y_n$" src="../../form_2.png"/> can be represented as a set of <img class="formulaInl" alt="$\prod\limits_{k=n+1}^{N-1}I_k$" src="../../form_3.png"/> row major matrices, each of which is <img class="formulaInl" alt="$I_n \times \prod\limits_{k=0}^{n-1}I_k$" src="../../form_4.png"/>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00030">30</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00032">32</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab92b5b2800627453d6abf1da4450354c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab92b5b2800627453d6abf1da4450354c">&#9670;&nbsp;</a></span>Tensor() <span class="overload">[1/5]</span></h2>
@@ -211,7 +213,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00073">73</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00075">75</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -234,7 +236,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -279,7 +281,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00091">91</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00090">90</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -320,7 +322,7 @@ Public Attributes</h2></td></tr>
 <p>Need when copying from matrix to <a class="el" href="../../d9/d5b/classplanc_1_1_tensor.html" title="Data is stored such that the unfolding  is column major. ">Tensor</a>. </p>
 <p>otherwise copy constructor will be called. The data will be passed in row major order </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00105">105</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00104">104</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -347,7 +349,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00114">114</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00112">112</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -377,7 +379,7 @@ Public Attributes</h2></td></tr>
 
 <p>copy constructor </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00124">124</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00117">117</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -406,7 +408,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00517">517</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00516">516</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -455,7 +457,7 @@ template&lt;typename NumericType &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00402">402</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00399">399</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -484,7 +486,7 @@ template&lt;typename NumericType &gt; </div>
 
 <p>Clears the data and also destroys the storage. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00152">152</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00153">153</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -521,7 +523,7 @@ template&lt;typename NumericType &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>dimension of ith mode </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00173">173</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00170">170</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -550,7 +552,7 @@ template&lt;typename NumericType &gt; </div>
 
 <p>Returns a vector of dimensions on every mode. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00164">164</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00161">161</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -587,7 +589,7 @@ template&lt;typename NumericType &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>product of dimensions except mode i </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00183">183</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00180">180</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -623,7 +625,7 @@ template&lt;typename NumericType &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00360">360</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00357">357</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -650,7 +652,7 @@ template&lt;typename NumericType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00165">165</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00162">162</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -688,7 +690,7 @@ template&lt;typename NumericType &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00416">416</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00413">413</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -717,7 +719,7 @@ template&lt;typename NumericType &gt; </div>
 
 <p>Return the number of modes. It is a scalar value. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00162">162</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00159">159</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -762,8 +764,7 @@ template&lt;typename NumericType &gt; </div>
 </div><div class="memdoc">
 
 <p>size of krp must be product of all dimensions leaving out nxk. </p>
-<p>o_mttkrp will be of size dimension[n]xk. <br />
-Memory must be allocated and freed by the caller </p><dl class="params"><dt>Parameters</dt><dd>
+<p>o_mttkrp will be of size dimension[n]xk. Memory must be allocated and freed by the caller </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">i_n</td><td>mode number </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">i_krp</td><td>Khatri-rao product matrix leaving out mode i_n </td></tr>
@@ -772,7 +773,7 @@ Memory must be allocated and freed by the caller </p><dl class="params"><dt>Para
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00245">245</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00242">242</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -801,7 +802,7 @@ Memory must be allocated and freed by the caller </p><dl class="params"><dt>Para
 
 <p>returns the frobenius norm of the tensor </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00349">349</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00346">346</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -830,7 +831,7 @@ Memory must be allocated and freed by the caller </p><dl class="params"><dt>Para
 
 <p>Returns total number of elements. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00175">175</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00172">172</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -858,7 +859,7 @@ Memory must be allocated and freed by the caller </p><dl class="params"><dt>Para
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00135">135</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00127">127</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -887,7 +888,7 @@ Memory must be allocated and freed by the caller </p><dl class="params"><dt>Para
 
 <p>prints the value of the tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00328">328</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00325">325</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -925,7 +926,7 @@ Memory must be allocated and freed by the caller </p><dl class="params"><dt>Para
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00335">335</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00332">332</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -954,7 +955,7 @@ Memory must be allocated and freed by the caller </p><dl class="params"><dt>Para
 
 <p>set the tensor with uniform random. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00194">194</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00191">191</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -983,7 +984,7 @@ Memory must be allocated and freed by the caller </p><dl class="params"><dt>Para
 
 <p>set the tensor with uniform int values </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00203">203</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00200">200</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -1019,7 +1020,7 @@ Memory must be allocated and freed by the caller </p><dl class="params"><dt>Para
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00218">218</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00215">215</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -1065,7 +1066,7 @@ Memory must be allocated and freed by the caller </p><dl class="params"><dt>Para
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00462">462</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00460">460</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -1103,7 +1104,7 @@ template&lt;typename NumericType &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00375">375</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00372">372</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -1131,7 +1132,7 @@ template&lt;typename NumericType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00177">177</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00174">174</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -1169,7 +1170,7 @@ template&lt;typename NumericType &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00388">388</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00385">385</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -1206,7 +1207,35 @@ template&lt;typename NumericType &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>linear index within the tensor </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00509">509</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00508">508</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a84344f961ca392c4ec8e97fabada0c10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84344f961ca392c4ec8e97fabada0c10">&#9670;&nbsp;</a></span>swap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void planc::Tensor::swap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d5b/classplanc_1_1_tensor.html">Tensor</a> &amp;&#160;</td>
+          <td class="paramname"><em>in</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00140">140</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -1252,7 +1281,7 @@ template&lt;typename NumericType &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00429">429</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00426">426</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -1281,24 +1310,24 @@ template&lt;typename NumericType &gt; </div>
 
 <p>Zeros out the entire tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00188">188</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00185">185</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aa0444b14c9d57936f69e6426ffd9d2a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0444b14c9d57936f69e6426ffd9d2a7">&#9670;&nbsp;</a></span>m_data</h2>
+<a id="a0acabfabe7924b4f67d77b3f3ffc6e37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0acabfabe7924b4f67d77b3f3ffc6e37">&#9670;&nbsp;</a></span>m_data</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double* planc::Tensor::m_data</td>
+          <td class="memname">std::vector&lt;double&gt; planc::Tensor::m_data</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00072">72</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d8b/tensor_8hpp_source.html#l00073">73</a> of file <a class="el" href="../../d3/d8b/tensor_8hpp_source.html">tensor.hpp</a>.</p>
 
 </div>
 </div>
@@ -1308,7 +1337,7 @@ template&lt;typename NumericType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jan 16 2019 18:27:31 for planc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 18 2019 13:41:47 for planc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

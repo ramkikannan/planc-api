@@ -8,6 +8,7 @@ var searchData=
   ['getrightlowrankfactor',['getRightLowRankFactor',['../dc/d5a/classplanc_1_1_n_m_f.html#a5f471007d46d59dabee5a1af85f5d574',1,'planc::NMF::getRightLowRankFactor()'],['../d0/d21/classplanc_1_1_dist_n_m_f1_d.html#a7733ba0cc375f818edf55d0e2b6da15f',1,'planc::DistNMF1D::getRightLowRankFactor()']]],
   ['getsolutionmatrix',['getSolutionMatrix',['../d6/d16/class_n_n_l_s.html#a6d253c7fc36bd7943446f6d436236c1f',1,'NNLS']]],
   ['getsolutionvector',['getSolutionVector',['../d6/d16/class_n_n_l_s.html#a0c3685cf869c38ae7fd0f8db10a8cd28',1,'NNLS']]],
+  ['global_5fdims',['global_dims',['../d2/d53/classplanc_1_1_dist_n_t_f_i_o.html#ab5fdb70eed9c1fdfba7ba10073b8de12',1,'planc::DistNTFIO']]],
   ['global_5fidx',['global_idx',['../d9/d5b/classplanc_1_1_tensor.html#a892042ff5d9454913dfbe0e0812bfaf8',1,'planc::Tensor']]],
   ['globalh',['globalH',['../d0/d21/classplanc_1_1_dist_n_m_f1_d.html#acf07535d8d6d344dadcc86c447963cfc',1,'planc::DistNMF1D']]],
   ['globalm',['globalm',['../d2/dad/classplanc_1_1_parse_command_line.html#a7c4a9409935e7206c74742c40d9c44d0',1,'planc::ParseCommandLine::globalm()'],['../d0/de5/classplanc_1_1_dist_n_m_f.html#a570742f402a626d96e42f9240cb8f860',1,'planc::DistNMF::globalm()'],['../d0/d21/classplanc_1_1_dist_n_m_f1_d.html#aed8146f2bb5462a7c1244fa308232447',1,'planc::DistNMF1D::globalm()']]],
@@ -16,5 +17,5 @@ var searchData=
   ['globalw',['globalW',['../d0/d21/classplanc_1_1_dist_n_m_f1_d.html#a1dc06833159d640b4beb679c2502e4e7',1,'planc::DistNMF1D']]],
   ['gram',['gram',['../d0/d20/classplanc_1_1_n_c_p_factors.html#ac600772edd43eb84d252b8753b20b81e',1,'planc::NCPFactors']]],
   ['gram_5fduration',['gram_duration',['../de/de0/classplanc_1_1_dist_n_m_f_time.html#a6a3ddadeab184c34def7d5eb7df05bf3',1,'planc::DistNMFTime::gram_duration() const'],['../de/de0/classplanc_1_1_dist_n_m_f_time.html#a0c60d4e3af8d0232fac0b37a987ccc9e',1,'planc::DistNMFTime::gram_duration(double d)'],['../d4/d31/classplanc_1_1_dist_n_t_f_time.html#a90b1672739e29d01a4d9ca63b276ed94',1,'planc::DistNTFTime::gram_duration() const'],['../d4/d31/classplanc_1_1_dist_n_t_f_time.html#a2509c42ba3f5dc9f0132bfcf03878662',1,'planc::DistNTFTime::gram_duration(double d)']]],
-  ['gram_5fleave_5fout_5fone',['gram_leave_out_one',['../d0/d20/classplanc_1_1_n_c_p_factors.html#a3a0bf3e8cb42f85f205b237516bf39af',1,'planc::NCPFactors']]]
+  ['gram_5fleave_5fout_5fone',['gram_leave_out_one',['../d0/d20/classplanc_1_1_n_c_p_factors.html#a543846c4ecf1bd521505809bba47a556',1,'planc::NCPFactors']]]
 ];
